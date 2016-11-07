@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="/admin/goods/adminGoodsMain" extends="base.definition">
+       <put-attribute name="title" value="관리자 메인 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/adminGoodsMain.jsp" />
+    </definition>
+    <definition name="/admin/goods/addNewGoodsForm" extends="base.definition">
+       <put-attribute name="title" value="새 제품 추가 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/addNewGoodsForm.jsp" />
+    </definition>
+    <definition name="/admin/goods/addNewGoodsImageForm" extends="base.definition">
+       <put-attribute name="title" value="새 제품 추가 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/addNewGoodsImageForm.jsp" />
+    </definition>
+    <definition name="/admin/goods/addNewGoods" extends="base.definition">
+       <put-attribute name="title" value="새 제품 추가 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/addNewGoodsForm.jsp" />
+    </definition> 
+    <definition name="/admin/goods/modifyGoodsForm" extends="base.definition">
+       <put-attribute name="title" value="새 제품 추가 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/modifyGoodsForm.jsp" />
+    </definition>
+    <definition name="/admin/goods/modifyGoodsImageForm" extends="base.definition">
+       <put-attribute name="title" value="새 제품 추가 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/goods/modifyGoodsImageForm.jsp" />
+    </definition>      
+    
+    <!-- 주문관리 -->
+    <definition name="/admin/order/adminOrderMain" extends="base.definition">
+       <put-attribute name="title" value="주문 관리 페이지" />
+       <put-attribute name="body" value="/WEB-INF/views/admin/order/adminOrderMain.jsp" />
+    </definition>
+    
+</tiles-definitions>
+
+
